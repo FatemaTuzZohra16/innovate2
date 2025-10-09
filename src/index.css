@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 @theme {
   --font-sans: "Open Sans", sans-serif;
   --font-paprika:  "Paprika", system-ui;
+  --font-roboto:  "Roboto", sans-serif;
   --color-primary: #FF7628;
   --color-title: #192239;
   --color-para: #6C7D93;

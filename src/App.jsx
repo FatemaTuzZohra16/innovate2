@@ -6,6 +6,8 @@ import Hero from './Components/Hero/Hero'
 import Services from './Components/Services/Services'
 import WeAre from './Components/WeAre/WeAre'
 import Showcase from './Components/Showcase/Showcase'
+import Process from './Components/Process/Process'
+import ClientReveiw from './Components/ClientReveiw/ClientReveiw'
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
      <Services />
      <WeAre />
      <Showcase />
+     <Process />
+     <ClientReveiw />
     </>
   )
 }
