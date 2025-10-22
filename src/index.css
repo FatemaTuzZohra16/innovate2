@@ -9,3 +9,41 @@
   --color-title: #192239;
   --color-para: #6C7D93;
 }
+
+.slick-prev, .slick-next {
+  background-color: var(--color-primary) !important;
+  width: 64px !important;
+  height: 64px !important;
+  position: absolute !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999 !important;
+  top: 96% !important;
+  left: -34%;
+}
+.slick-prev:before, .slick-next:before {
+  color: white !important;
+  font-size: 30px !important;
+  opacity: 1 !important;
+  background: none !important;
+}
+.slick-prev {
+    left: -308px !important;
+}
+
+
+.reveiws {
+  padding: 0 15px;
+  margin: 0 -15px;
+  overflow: hidden; /* card safe রাখে */
+  position: relative;
+  z-index: 10;
+}
+.reveiws .slick-arrow {
+  position: absolute !important;
+  z-index: 9999 !important;
+}
+
+

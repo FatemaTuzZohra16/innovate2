@@ -8,6 +8,7 @@ import WeAre from './Components/WeAre/WeAre'
 import Showcase from './Components/Showcase/Showcase'
 import Process from './Components/Process/Process'
 import ClientReveiw from './Components/ClientReveiw/ClientReveiw'
+import Blog from './Components/Blog/Blog'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
      <Showcase />
      <Process />
      <ClientReveiw />
+     <Blog />
     </>
   )
 }
