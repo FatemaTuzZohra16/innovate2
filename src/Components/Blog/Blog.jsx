@@ -35,11 +35,15 @@ const Blog = () => {
             <div className='flex gap-[30px]'>
                 {
                     blogData.map ((item)=>(
-                        <div>
+                        <div className='shadow-[0_24px_30px_0_rgba(99,122,166,0.20)] rounded-b-[30px]'>
                             <img src={item.image} alt="" />
                             <h2 className='font-sans font-medium text-[24px] leading-[32px] text-[#413F45] mt-[30px] mb-[16px] ml-[30px] max-w-[264px]'>{item.title}</h2>
-                            <p>{item.description}</p>
-                            <button>{item.button}</button>
+                            <p className='font-roboto text-[18px] leading-[24px] text-[#474747] ml-[30px] mt-4 mb-[30px]'>{item.description}</p>
+                             <div className='relavite flex items-center'>
+                            <div className='absolute w-[33px] h-[33px] rounded-full ml-[30px] mb-[30px] bg-primary z-0'></div>
+                            <button className='font-sans font-bold text-[18px] leading-[24px] text-[#202427] mb-[35px] ml-[46px] z-10'>{item.button}</button>
+                        </div>
+                            
                         </div>
                     ))
                 }
