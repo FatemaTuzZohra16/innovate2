@@ -9,6 +9,7 @@ import Showcase from './Components/Showcase/Showcase'
 import Process from './Components/Process/Process'
 import ClientReveiw from './Components/ClientReveiw/ClientReveiw'
 import Blog from './Components/Blog/Blog'
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
      <Process />
      <ClientReveiw />
      <Blog />
+     <Footer />
     </>
   )
 }
