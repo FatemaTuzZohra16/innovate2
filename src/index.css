@@ -34,16 +34,4 @@
 }
 
 
-.reveiws {
-  padding: 0 15px;
-  margin: 0 -15px;
-  overflow: hidden; /* card safe রাখে */
-  position: relative;
-  z-index: 10;
-}
-.reveiws .slick-arrow {
-  position: absolute !important;
-  z-index: 9999 !important;
-}
-
 

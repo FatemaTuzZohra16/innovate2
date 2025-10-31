@@ -28,7 +28,7 @@ const ClientReveiw = () => {
                     <p className='w-[331px] font-paprika text-[18px] leading-[30px] text-para'>people use digital devices instead of visiting physical shops, digital marketing campaigns are becoming more prevalent and efficient.  </p>
                    </div>
                     <div className="reveiws w-full overflow-hidden relative z-[50]">
-                      <div className="arrow-wrapper overflow-visible relative">
+                      <div className="arrow-wrapper arrow-layer overflow-visible relative">
                         <Slider {...settings}>
                         <div className="one max-w-[370px] pt-[25px] pr-[51px] pl-[40px] pb-[40px] rounded-[20px] hover:bg-[#d8eaff] group">
                             <p className='w-[270px] font-paprika text-[18px] leading-[30px] mb-[9px] text-para'>Content Marketing is the other fold of online advertisement. If you are looking to build. digital marketing campaigns are becoming more prevalent and efficient.   </p>
